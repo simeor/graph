@@ -2,7 +2,6 @@ import Blog from "../components/Blog";
 import { blogsService } from "../services/blogsService";
 
 export async function getStaticProps() {
-  console.log(blogsService);
   const { posts } = await blogsService.getBlogs;
   return {
     props: {
