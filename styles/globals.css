@@ -15,12 +15,18 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minMax(25rem, 1rem));
+  grid-gap: 3rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 3rem;
+}
+
+.pageContainer {
+  height: 100%;
+  padding: 0 50px;
 }

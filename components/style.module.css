@@ -1,0 +1,15 @@
+.blogContainer {
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  height: 100%;
+}
+
+.blogContainer:hover {
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+}
